@@ -105,6 +105,7 @@ header nav ul li:last-of-type a{
     line-height: 56px;
     margin-bottom: 16px;
     margin-top: 0%;
+    font-weight: normal;
 }
 
 .hero-content p {
@@ -131,4 +132,79 @@ header nav ul li:last-of-type a{
     text-align: center;
     border: none;
     text-transform: uppercase;
+}
+
+.best-sellers{
+    padding-top: 80px;
+}
+
+.best-sellers h2 {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 0 0 14px 0 ;
+
+}
+
+.best-sellers hr {
+    border: none;
+    border-top: 5px solid #67F11D;
+    width: 66px;
+}
+
+.best-sellers .product-slider{
+
+}
+
+.best-sellers .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.best-sellers .product-slider .product {
+    border-radius: 8px;
+    border: 1px solid #969696;
+    width: 33%;
+    text-align: center;
+}
+
+.product-slider .product .product-picture {
+    width: 0 198 0 0;
+}
+
+.product-info .categories {
+    color: #3E50E5;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.product-info .product-name {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.product-info .price {
+    width: 273;
+    height: 36;
+    top: 344px;
+    left: 67px;    
+}
+
+.product .product-action .product-add{
+    width: 180;
+    height: 41;
+    top: 386px;
+    left: 103px;
+    gap: 10px;
+    border-radius: 25px;
+    border-width: 1px;
+    padding: 10px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    width: 180px;    
 }
