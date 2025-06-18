@@ -67,6 +67,10 @@ header nav ul li a {
 
 }
 
+header nav ul li a:hover {
+    color: #3E50E5;
+}
+
 header nav ul li:last-of-type a{
     margin-right: 0;
 }
@@ -132,6 +136,12 @@ header nav ul li:last-of-type a{
     text-align: center;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #ffffff;
+    color: blue;
 }
 
 .best-sellers{
@@ -230,6 +240,13 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     font-weight: 400;
     width: 220px;    
+    cursor: pointer;
+}
+
+.product .product-action .product-add:hover {
+    background-color: #3E50E5;
+    color: #fff;
+    border: none;
 }
 
 .best-sellers .product-slider .product.product.new::before{
@@ -312,6 +329,13 @@ section.newsletter button {
     border: none;
     text-transform: uppercase;
     padding: 0 20px;
+    cursor: pointer;
+}
+
+section.newsletter button:hover {
+    background-color: #ffffff;
+    color: blue; 
+    border: #2B2B2B 1px solid;   
 }
 
 footer {
@@ -360,6 +384,10 @@ footer .bottom-nav .container ul li a{
     line-height: 21px;
     text-decoration: none;
     margin-bottom: 8px;
+}
+
+footer .bottom-nav .container ul li a:hover{
+    color: blue;
 }
 
 footer .bottom-nav .container ul li.list-title {
