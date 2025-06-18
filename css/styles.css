@@ -260,3 +260,56 @@ section.newsletter {
     padding: 72px 0;
     margin-top: 72px;
 }
+
+section.newsletter h3{
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section.newsletter p{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.newsletter form input{
+    width: 326px;
+    height: 50px;
+    max-width: 80 ;
+    border-radius: 60px 0 0 60px;
+    border: 1px solid #ccc;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    padding-left: 22px;
+}
+
+section.newsletter button {
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    border-radius: 0 60px 60px 0;
+    background-color: #3E50E5;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 21px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
